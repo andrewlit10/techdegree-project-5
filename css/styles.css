@@ -1,0 +1,58 @@
+/* Page styling */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 24px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.container {
+    color: #fff;
+    margin: 20px;
+}
+
+nav {
+    background-color: #fff;
+    text-align: center;
+}
+
+main {
+    background-color: #fff;
+
+}
+
+/* Search Bar */
+
+.searchBlock input {
+    display: block;
+    margin: 20px auto 20px;
+    font-size: 20px;
+    width: 600px;
+    max-width: 80%;
+    height: 55px;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding-left: 10px;
+
+}
+input:focus {
+    background: whitesmoke;
+    color: salmon;
+
+}
+
+/* Grid */
+
+.gallery {
+    display: grid;
+    max-width: 850px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 25px;
+    margin: 2px auto;
+    justify-items: center;
+
+}
